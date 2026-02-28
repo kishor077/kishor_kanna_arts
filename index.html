@@ -690,11 +690,6 @@ function updateSlide() {
   slides.style.transform = `translateX(-${index * 100}%)`;
 }
 
-// Auto slide every 5 seconds
-setInterval(() => {
-  index = (index + 1) % totalSlides;
-  updateSlide();
-}, 5000);
 </script>
 
 </body>
